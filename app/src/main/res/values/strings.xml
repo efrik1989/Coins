@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Coins</string>
+    <string name="value">Номинал</string>
+    <string name="year">Год</string>
+    <string name="country">Страна</string>
+    <string name="more_info">Дополнительная информация</string>
+</resources>

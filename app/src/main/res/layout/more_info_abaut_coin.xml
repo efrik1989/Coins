@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="Состояние"/>
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="Монетный двор"/>
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="Оценочная стоимость"/>
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="Категория"/>
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:text="История Монеты"/>
+
+</LinearLayout>
