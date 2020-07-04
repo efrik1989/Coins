@@ -17,14 +17,18 @@ public class CoinMoreInfoFragment extends Fragment {
     TextView coinEmitterTown;
     TextView coinPrice;
     TextView coinCategory;
+    TextView coinHistory;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.more_info_abaut_coin, container);
+        View view = inflater.inflate(R.layout.more_info_abaut_coin, container, false);
 
-        //coinState = view.findViewById(R.id.)
-
+        coinState = view.findViewById(R.id.coin_state);
+        coinEmitterTown = view.findViewById(R.id.coin_emitter_town);
+        coinPrice = view.findViewById(R.id.coin_price);
+        coinCategory = view.findViewById(R.id.coin_category);
+        coinHistory = view.findViewById(R.id.coin_history);
 
         return super.onCreateView(inflater, container, savedInstanceState);
     }

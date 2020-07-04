@@ -6,22 +6,27 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/coin_state"
         style="@style/TextViewStyle"
         android:text="Состояние"/>
 
     <TextView
+        android:id="@+id/coin_emitter_town"
         style="@style/TextViewStyle"
         android:text="Монетный двор"/>
 
     <TextView
+        android:id="@+id/coin_price"
         style="@style/TextViewStyle"
         android:text="Оценочная стоимость"/>
 
     <TextView
+        android:id="@+id/coin_category"
         style="@style/TextViewStyle"
         android:text="Категория"/>
 
     <TextView
+        android:id="@+id/coin_history"
         style="@style/TextViewStyle"
         android:text="История Монеты"/>
 
