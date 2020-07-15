@@ -4,4 +4,7 @@
     <string name="year">Год</string>
     <string name="country">Страна</string>
     <string name="more_info">Дополнительная информация</string>
+    <string name="country_flag">флаг страны</string>
+    <string name="quantity">Количество в сундуке</string>
+    <string name="coin_year_in_list">Год</string>
 </resources>

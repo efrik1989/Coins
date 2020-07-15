@@ -25,23 +25,83 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/coin_year"
-            style="@style/TextViewStyle"
-            android:text="@string/year"
-            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/coin_value"
-            style="@style/TextViewStyle"
-            android:text="@string/value"
-            />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
 
-        <TextView
-            android:id="@+id/coin_country"
-            style="@style/TextViewStyle"
-            android:text="@string/country"
-            />
+                <TextView
+                    android:id="@+id/coin_year"
+                    style="@style/TextViewStyle"
+                    android:text="@string/year"
+                    android:layout_gravity="end"
+                    />
+
+                <TextView
+                    android:id="@+id/coin_value"
+                    style="@style/TextViewStyle"
+                    android:text="@string/value"
+                    android:layout_gravity="end"
+                    />
+
+                <TextView
+                    android:id="@+id/coin_country"
+                    style="@style/TextViewStyle"
+                    android:text="@string/country"
+                    android:layout_gravity="end"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="3">
+
+                <EditText
+                    android:id="@+id/coin_year_text"
+                    style="@style/TextViewStyle"
+                    android:inputType="number"
+                    android:hint="@string/year"
+                    />
+
+                <EditText
+                    android:id="@+id/coin_value_text"
+                    style="@style/TextViewStyle"
+                    android:inputType="number"
+                    android:hint="@string/value"
+                    />
+
+                <EditText
+                    android:id="@+id/coin_country_text"
+                    style="@style/TextViewStyle"
+                    android:inputType="text"
+                    android:hint="@string/country"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/accept_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_name"
+            android:layout_gravity="right"
+            android:layout_margin="20dp">
+
+
+        </ImageButton>
 
         <Button
             android:id="@+id/coin_more_info"

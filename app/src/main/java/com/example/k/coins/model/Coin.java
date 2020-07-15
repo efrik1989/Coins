@@ -5,7 +5,8 @@ import androidx.room.PrimaryKey;
 
 @Entity
 public class Coin {
-    @PrimaryKey private int id;
+    @PrimaryKey(autoGenerate = true)
+    private int id;
     private int year;
     private int coinValue;
     private String photoUrl;
